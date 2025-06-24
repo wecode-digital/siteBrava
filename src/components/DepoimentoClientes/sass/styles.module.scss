@@ -86,12 +86,12 @@
   }
 
   :global(.slick-prev)::before {
-    content: url("/assets/svg/left-arrow.svg");
+    content: url("/assets/imagens/svg/left-arrow.svg"); 
     display: block;
   }
 
   :global(.slick-next)::before {
-    content: url("/assets/svg/right-arrow.svg");
+    content: url("/assets/imagens/svg/right-arrow.svg");
     display: block;
   }
 
@@ -697,6 +697,7 @@
 
   .testimonialContent {
     height: 100% !important;
+    width: 100% !important;
     box-sizing: border-box;
     padding: 1rem 2rem !important;
 

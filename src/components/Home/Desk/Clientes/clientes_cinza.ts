@@ -25,115 +25,69 @@ import jorgebischoff from "../../../../../public/assets/imagens/logoClientes/neu
 import trestentos from "../../../../../public/assets/imagens/logoClientes/neutro/logo3tentos.svg";
 import oba from "../../../../../public/assets/imagens/logoClientes/neutro/logo-oba.svg";
 import honeybe from "../../../../../public/assets/imagens/logoClientes/neutro/logo-honeybe.svg";
+import ibbl from "../../../../../public/assets/imagens/logoClientes/neutro/ibbl.png";
+import andreazza from "../../../../../public/assets/imagens/logoClientes/neutro/andreazza.png";
 
 export const logoClientesColorido = [
   {
-    src: politorno,
+    src: jorgebischoff,
     id: 0,
   },
   {
-    src: kappesberg,
+    src: bibi,
     id: 1,
   },
   {
-    src: carraro,
+    src: petitejolie,
     id: 2,
   },
   {
-    src: dj,
+    src: bebece,
     id: 3,
   },
   {
-    src: soprano,
+    src: anselmi,
     id: 4,
   },
   {
-    src: ou,
+    src: piccadily,
     id: 5,
   },
   {
-    src: lots,
+    src: kiss,
     id: 6,
   },
   {
-    src: stihl,
+    src: ou,
     id: 7,
   },
   {
-    src: roniChaves,
+    src: stihl,
     id: 8,
   },
   {
-    src: keko,
+    src: soprano,
     id: 9,
   },
   {
-    src: anselmi,
+    src: carraro,
     id: 10,
   },
   {
-    src: niini,
+    src: keko,
     id: 11,
   },
   {
-    src: bibi,
+    src: ibbl,
     id: 12,
   },
   {
-    src: bebece,
+    src: oba,
     id: 13,
   },
   {
-    src: fiero,
+    src: andreazza,
     id: 14,
-  },
-  {
-    src: pituchinhus,
-    id: 15,
-  },
-  {
-    src: perfumaria,
-    id: 16,
-  },
-  {
-    src: piccadily,
-    id: 17,
-  },
-  {
-    src: petitejolie,
-    id: 18,
-  },
-  {
-    src: katarze,
-    id: 19,
-  },
-  {
-    src: fabiolamolina,
-    id: 20,
-  },
-  {
-    src: jorgebischoff,
-    id: 21,
-  },
-  {
-    src: kiss,
-    id: 22,
-  },
-  {
-    src: trestentos,
-    id: 23,
-  },
-  {
-    src: belasletras,
-    id: 24,
-  },
-  {
-    src: oba,
-    id: 25,
-  },
-  {
-    src: honeybe,
-    id: 26,
   },
 ];
 

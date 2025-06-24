@@ -43,6 +43,28 @@ const svenStihl = "/assets/imagens/videos/depoimentos/sven-vanessa-stihl.mp4";
 
 const testimonials = [
   {
+    type: 'double',
+    testimonial: '&quotA nossa experiência foi fantástica, e a gente entende como <span>um marco na história da STIHL.</span>&quot',
+    people: [
+      {
+        id: 'sven',
+        name: 'Sven Laure',
+        position: 'Head of Marketing Systems & E-Commerce',
+        image: svenStihlPhoto,
+      },
+      {
+        id: 'vanessa',
+        name: 'Vanessa Spall',
+        position: 'Analista de E-commerce da STIHL',
+        image: vanessaStihlPhoto,
+      }
+    ],
+    video: {
+      horizontal: svenStihl,
+      vertical: svenStihl,
+    }
+  },
+  {
     name: 'Liliam Mantovani',
     position: 'Gerente de Marketing da Keko',
     image: liliamMantovani,
@@ -92,28 +114,7 @@ const testimonials = [
       vertical: viniciusVertical,
     }
   },
-  {
-    type: 'double',
-    testimonial: '&quotA nossa experiência foi fantástica, e a gente entende como <span>um marco na história da STIHL.</span>&quot',
-    people: [
-      {
-        id: 'sven',
-        name: 'Sven Laure',
-        position: 'Head of Marketing Systems & E-Commerce',
-        image: svenStihlPhoto,
-      },
-      {
-        id: 'vanessa',
-        name: 'Vanessa Spall',
-        position: 'Analista de E-commerce',
-        image: vanessaStihlPhoto,
-      }
-    ],
-    video: {
-      horizontal: svenStihl,
-      vertical: svenStihl,
-    }
-  },
+  
 ];
 
 const TestimonialSlider = ({ isMobile }: { isMobile: boolean }) => {
