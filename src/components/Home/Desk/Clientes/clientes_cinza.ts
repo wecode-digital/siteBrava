@@ -21,7 +21,7 @@ import soprano from "../../../../../public/assets/imagens/logoClientes/neutro/lo
 import stihl from "../../../../../public/assets/imagens/logoClientes/neutro/logostihl.svg";
 import roniChaves from "../../../../../public/assets/imagens/logoClientes/neutro/logoronichaves.svg";
 import fabiolamolina from "../../../../../public/assets/imagens/logoClientes/neutro/logofabiolamolina.svg";
-import jorgebischoff from "../../../../../public/assets/imagens/logoClientes/neutro/logojorgebischoff.svg";
+import jorgebischoff from "../../../../../public/assets/imagens/logoClientes/neutro/logojorgebischoff.png";
 import trestentos from "../../../../../public/assets/imagens/logoClientes/neutro/logo3tentos.svg";
 import oba from "../../../../../public/assets/imagens/logoClientes/neutro/logo-oba.svg";
 import honeybe from "../../../../../public/assets/imagens/logoClientes/neutro/logo-honeybe.svg";
