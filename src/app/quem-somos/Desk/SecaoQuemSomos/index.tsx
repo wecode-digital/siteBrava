@@ -2,6 +2,7 @@ import "./sass/SecaoQuemSomosDesk.scss";
 import LogoBravaCinza from "../../../../../public/assets/imagens/logo/logoBravaCinza.svg";
 import LogoConverte from "../../../../../public/assets/imagens/logo/logoConverte.svg";
 import LogoWecode from "../../../../../public/assets/imagens/logo/logoWecode.svg";
+// import logoCentric from "../../../../../public/assets/imagens/logo/logoCentric.svg"
 import Image from "next/image";
 
 const SecaoQuemSomosDesk = () => {

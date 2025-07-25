@@ -23,8 +23,8 @@ const BiografiasDesk = () => {
               Digital pela ESPM, possui mais de 13 anos de atuação no mercado de
               negócios digitais, com passagens por Lojas Colombo, Arezzo, ESPM e
               E-commerce Brasil. Conquistou premiações de Melhor Profissional de
-              E-commerce pelo eBit e ABCOMM e atualmente é sócio da Brava,
-              Converte e Wecode.
+              E-commerce pelo eBit e ABCOMM e Atualmente é sócio da Brava, Wecode,
+              Converte e Centric.
             </p>
           </div>
         </div>
