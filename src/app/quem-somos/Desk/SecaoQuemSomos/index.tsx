@@ -2,7 +2,7 @@ import "./sass/SecaoQuemSomosDesk.scss";
 import LogoBravaCinza from "../../../../../public/assets/imagens/logo/logoBravaCinza.svg";
 import LogoConverte from "../../../../../public/assets/imagens/logo/logoConverte.svg";
 import LogoWecode from "../../../../../public/assets/imagens/logo/logoWecode.svg";
-// import logoCentric from "../../../../../public/assets/imagens/logo/logoCentric.svg"
+import logoCentric from "../../../../../public/assets/imagens/logo/logoCentric.svg"
 import Image from "next/image";
 
 const SecaoQuemSomosDesk = () => {
@@ -52,6 +52,17 @@ const SecaoQuemSomosDesk = () => {
             <p className="body__company__title">Tecnologia</p>
             <p className="body__company__text">
               Certificada em implantação, migração e suporte da plataforma VTEX
+            </p>
+          </div>
+        </div>
+        <div className="body__company">
+          <div className="body__company__logo">
+            <Image src={logoCentric} alt="Logo Centric Cinza" />
+          </div>
+          <div className="body__company__info">
+            <p className="body__company__title">Mídia Paga</p>
+            <p className="body__company__text">
+              Performance e gestão de tráfego pago para operações de e-commerce.
             </p>
           </div>
         </div>
