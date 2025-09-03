@@ -23,8 +23,8 @@ const BiografiasDesk = () => {
               Digital pela ESPM, possui mais de 13 anos de atuação no mercado de
               negócios digitais, com passagens por Lojas Colombo, Arezzo, ESPM e
               E-commerce Brasil. Conquistou premiações de Melhor Profissional de
-              E-commerce pelo eBit e ABCOMM e Atualmente é sócio da Brava, Wecode,
-              Converte e Centric.
+              E-commerce pelo eBit e ABCOMM e Atualmente é sócio da Brava, Wecode
+              e Centric.
             </p>
           </div>
         </div>
@@ -42,8 +42,7 @@ const BiografiasDesk = () => {
               empresas de grande porte como Lojas Colombo, Grupo Dass (detentora
               das marcas Fila & Umbro) e Miolo Wine Group. Possui experiência em
               projetos B2C, B2B, D2C e Marketplace. Atualmente é consultor na
-              Brava Consultoria em E-commerce e sócio da Converte Educação
-              Digital.
+              Brava Consultoria em E-commerce.
             </p>
           </div>
         </div>

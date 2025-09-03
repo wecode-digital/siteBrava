@@ -32,7 +32,7 @@ const SecaoQuemSomosDesk = () => {
             </p>
           </div>
         </div>
-        <div className="body__company">
+        {/* <div className="body__company">
           <div className="body__company__logo">
             <Image src={LogoConverte} alt="Logo Brava Cinza" />
           </div>
@@ -43,7 +43,7 @@ const SecaoQuemSomosDesk = () => {
               marketing digital
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="body__company">
           <div className="body__company__logo">
             <Image src={LogoWecode} alt="Logo Brava Cinza" />
