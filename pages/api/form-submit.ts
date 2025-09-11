@@ -32,8 +32,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     if (!response.ok) {
       const errorText = await response.text()
-      console.log('Erro ao enviar para o Master Data:', errorText)
-      return res.status(response.status).json({ message: 'Erro ao enviar para o Master Data', details: errorText })
+      console.log('Erro ao enviar', errorText)
+      return res.status(response.status).json({ message: 'Erro ao enviar', details: errorText })
     }
 
     const data = await response.json()
