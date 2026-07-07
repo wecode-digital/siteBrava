@@ -1,4 +1,4 @@
-@import "./../../../../../styles/padroes/padroes.scss";
+@use "./../../../../../styles/padroes/padroes" as *;
 
 .proposito-desk {
     display: flex;

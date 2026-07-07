@@ -1,4 +1,4 @@
-@import '@/app/styleGuide.scss';
+@use '@/app/styleGuide' as *;
 
 .banner-desk {
     background-color: $background;

@@ -1,4 +1,4 @@
-@import '@/app/styleGuide.scss';
+@use '@/app/styleGuide' as *;
 
 .biografias__container-desk {
     // display: flex;

@@ -1,4 +1,4 @@
-@import '@/app/styleGuide.scss';
+@use '@/app/styleGuide' as *;
 
 .nossos-clientes__container {
     display: flex;
