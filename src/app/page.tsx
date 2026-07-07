@@ -1,12 +1,13 @@
-import { headers } from 'next/headers'
-import HomeMobile from "@/components/Home/Mobile";
-import HomeDesktop from "@/components/Home/Desk";
+import type { Metadata } from "next";
+import TapumeNorden from "@/components/TapumeNorden";
 
-const Home = async () => {
-  const userAgent = (await headers()).get('user-agent') || '';
-  const isMobile = /mobile|iphone|ipod|android|blackberry|opera|mini|windows\sce|palm|smartphone|iemobile|ipad|android 3.0|xoom|sch-i800|playbook|tablet|kindle/i.test(userAgent);
+export const metadata: Metadata = {
+  title: "Agora somos Norden",
+  description: "Wecode, Brava e Centric agora são Norden.",
+};
 
-  return isMobile ? <HomeMobile /> : <HomeDesktop />;
-}
+const Home = () => {
+  return <TapumeNorden />;
+};
 
 export default Home;

@@ -2,10 +2,14 @@ import type { Metadata } from "next";
 import "./globals.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
   title: "Brava Consultoria em E-commerce e Marketplace",
   description: "Consultoria estratégica para estruturar e acelerar a sua operação de e-commerce e marketplace. Mais de 13 anos de atuação, atendendo empresas como Stihl, Anselmi, Carraro e mais!",
+  icons: {
+    icon: "/assets/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -34,9 +38,9 @@ export default function RootLayout({
         {/* End Google Tag Manager */}
       </head>
       <body>
-        <Header></Header>
-        {children}
-        <Footer></Footer>
+        <SiteChrome header={<Header />} footer={<Footer />}>
+          {children}
+        </SiteChrome>
       </body>
     </html>
   );
