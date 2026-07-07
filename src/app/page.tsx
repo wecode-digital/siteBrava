@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import TapumeNorden from "@/components/TapumeNorden";
 
 export const metadata: Metadata = {
-  title: "Agora somos Norden",
+  title: "Brava",
   description: "Wecode, Brava e Centric agora são Norden.",
 };
 
