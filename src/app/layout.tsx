@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   },
 };
 
+/** Sinaliza ao Google que a Brava (nome antigo) é a mesma entidade da Norden. */
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Brava",
+  sameAs: ["https://norden.ec"],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,6 +28,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <head>
+        <script
+          type="application/ld+json"
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+        />
         {/* Google Tag Manager */}
         <script
           dangerouslySetInnerHTML={{
